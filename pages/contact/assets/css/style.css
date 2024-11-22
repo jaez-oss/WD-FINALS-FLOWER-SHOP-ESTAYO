@@ -1,0 +1,65 @@
+/* Fonts */
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/montserratBold.otf')format('truetype');
+}
+@font-face {
+    font-family: Prata;
+    src: url('../font/prataRegular.ttf')format('truetype');
+}
+@font-face {
+    font-family: MontserratReg;
+    src: url('../font/montserratRegular.otf')format('truetype');
+}
+
+* {
+    font-family: Prata;
+}
+:root {
+    --h1-font: 10rem;
+}
+/* Header */
+.bg-body-secondary {
+    background-color: #CDB4DB;
+}
+.bg {
+    background-image: url('../img/floristellaBackground.png');
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+/* Navigation */
+
+.navbar-brand img {
+    width: 80px;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #2D264D;
+    font-family: Montserrat;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar-brand img {
+      width: 150px;
+    }
+    .navbar-brand {
+      margin-right: 0;
+      padding: 0 1em;
+    }
+  }
+  /* Footer */
+.footer-section {
+  p{
+      font-size: 1.2rem;
+  }
+  
+  .bg-body-tertiary {
+      background-color: #FFE8F3;
+  }
+  }
