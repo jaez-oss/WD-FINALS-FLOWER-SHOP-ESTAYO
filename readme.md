@@ -61,10 +61,12 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
 The project showcases a rebranded version of Floristella, an existing Flower Shop based in the Philippines.
+
 The purpose of this project is to make a responsive website using HTML, CSS, and Bootstrap.
+
 The key components of the website is that 6 of the featured products on the landing page have their own individual product page. 
+
 HTML, CSS, and Bootstrap were utilized in making the website. The features are mostly powered by Bootstrap and a little bit of CSS. HTML serves as the backbone of the whole content of the website.
 The website is laptop and tablet responsive. 
 
