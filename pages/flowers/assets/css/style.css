@@ -11,27 +11,34 @@
     font-family: MontserratReg;
     src: url('../font/montserratRegular.otf')format('truetype');
 }
-
 * {
-    font-family: Prata;
+  font-family:MontserratReg;
+  p {
+      color: #B41E67;
+      font-size: 1.3rem;
+      font-family: MontserratReg;
+  }
+  h1 {
+      color: #2D264D;
+      font-family: Prata;
+  
+  }
 }
-:root {
-    --h1-font: 10rem;
+.bg {
+  background-image: url('../img/floristellaBackground.png');
+  height: 100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 /* Header */
+.top-header {
 .bg-body-secondary {
     background-color: #CDB4DB;
 }
-.bg {
-    background-image: url('../img/floristellaBackground.png');
-    height: 100vh;
-    background-position: center top;
-    background-repeat: no-repeat;
 }
 
-
 /* Navigation */
-
+.nav-bar {
 .navbar-brand img {
     width: 80px;
   }
@@ -52,4 +59,97 @@
       margin-right: 0;
       padding: 0 1em;
     }
+  }
+}
+  /* Hero */
+.hero {
+.hero-background {
+  background-image: url('../img/floristellaBanner.png');
+
+h1, h4 {
+  color: #2D264D;
+  text-shadow: #CDB4DB 1px 0 10px;
+}
+}
+}
+
+/* Bestseller Header */
+.bestseller-header {
+.bg-body-secondary {
+  background-color: #CDB4DB;
+}
+.bg {
+  background-image: url('../img/floristellaBackground.png');
+  height: 100vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+}
+
+/* Featured Header */
+.featured-header {
+.bg-body-secondary {
+  background-color: #2D264D;
+}
+}
+
+/* Products */
+.products {
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card:hover {
+  box-shadow: 5px #e9ecef;
+  transform: scale(1.01);
+}
+.price {
+  color: #263238;
+
+}
+.card-title {
+  color:#263238
+  }
+  a,
+  a:hover {
+      text-decoration: none;
+      color: inherit;
+  }
+  .sale {
+    color: #E53935
+  }
+
+  .sale-badge {
+    background-color: #E53935
+  }
+  h2 {
+    color: #B41E67;
+    font-size: 2.3em;
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.bg-cart {
+  background-color:#CDB4DB;
+  color:#fff;
+  border-radius: 1em;
+}
+.bg-primary {
+  background-color: #EC4596 !important;
+  border-color: #EC4596 !important;
+  font-family: Montserrat;
+  border-radius: 1.2em;
+}
+}
+
+/* Footer */
+.footer-section {
+  p{
+      font-size: 1.2rem;
+  }
+  
+  .bg-body-tertiary {
+      background-color: #FFE8F3;
+  }
   }

@@ -22,7 +22,7 @@
   h1 {
       color: #2D264D;
       font-family: Prata;
-  
+
   }
 }
 :root {
@@ -66,34 +66,62 @@
 }
 }
 
-/* About Us Section*/
-.about {
-img{
-  border-radius: 8%;
+/* Hero */
+.hero {
+    .hero-background {
+      background-image: url('../img/floristellaBanner.png');
+    
+    h1, h4 {
+      color: #2D264D;
+      text-shadow: #CDB4DB 1px 0 10px;
+    }
+    }
 }
 
-.bg-body-tertiary {
-  background-color: #FFE8F3;
-  opacity: 85%;
+/* Product */
+.product {
+h1 {
+  color: #2D264D;
+  font-family: Prata;
+  font-size: 5rem;
+
 }
+p {
+  color: #B41E67;
+  font-size: 1.3rem;
+  font-family: MontserratReg;
+}
+span {
+  font-size: 1.4rem;
+  font-family: Montserrat;
+}
+.btn-primary {
+  background-color: #EC4596 !important;
+  border-color: #EC4596 !important;
+  font-family: Montserrat;
+  border-radius: 1.5em;
+}
+.btn:hover {
+      box-shadow: 5px 6px 6px 2px #e9ecef;
+      transform: scale(1.05);
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-cart {
+  background-color:#CDB4DB;
+  color:#fff;
+  border-radius: 1em;
+}
+}
+
 /* Footer */
 .footer-section {
   p{
       font-size: 1.2rem;
   }
-
   .bg-body-tertiary {
       background-color: #FFE8F3;
-  }
   }
 }
-
-/* Footer */
-.footer-section {
-  p{
-      font-size: 1.2rem;
-  }
-  .bg-body-tertiary {
-      background-color: #FFE8F3;
-  }
-  }
