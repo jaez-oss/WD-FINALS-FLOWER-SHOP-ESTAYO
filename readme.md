@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/jaez-oss/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/floristellaLogo.png" alt="Floristella" width="130" height="100">
+    <img src="./assets/img/floristellaLogo.png" alt="Floristella" width="auto" height="auto">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Final Project</h3>
