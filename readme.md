@@ -59,7 +59,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
 The project showcases a rebranded version of Floristella, an existing Flower Shop based in the Philippines.
 
