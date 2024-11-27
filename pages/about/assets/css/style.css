@@ -19,11 +19,12 @@
       font-size: 1.3rem;
       font-family: MontserratReg;
   }
-  h1 {
+  h1, h2 {
       color: #2D264D;
       font-family: Prata;
   
   }
+
 }
 :root {
   --h1-font: 10rem;
